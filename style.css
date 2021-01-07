@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+.bt {
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: darkgray;
+}
+
+i {
+    margin: 10px 20px 10px 10px;
+}
+
+li {
+    padding: 5px;
+    border-bottom: white 1px solid;
+}
+
+.group-Button {
+    margin: 50px;
+    text-align: center;
+}
+
+button {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 25px;
+    background-color: white;
+    color: black;
+    border: 2px solid SlateBlue;
+    transition-duration: 0.4s;
+    /* Green */
+}
+
+button:hover {
+    font-size: 20px;
+    margin: 20px;
+    background-color: SlateBlue;
+    /* Green */
+    color: white;
+}
+
+@font-face {
+    font-family: Noto;
+    src: url(font-family/NotoSansKR-Bold.otf);
+}
+
+@font-face {
+    font-family: Dancing;
+    src: url(font-family/DancingScript-VariableFont_wght.ttf);
+}
